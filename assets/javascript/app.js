@@ -10,6 +10,7 @@ var answers = {}; // keys like 0, 1, 2, 3
 
 
 function resetTimer() {
+	clearInterval(timerInterval);
 	timerStatus = timerLimit;	// resetting the timer to the default limit
 	$("#timer").text(timerStatus);	// tell the html page to display timerStatus
 }

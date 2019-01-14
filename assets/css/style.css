@@ -2,6 +2,8 @@ body {
     background: #fff;
     color: #888;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-image:url("../images/wallpaper2.jpg");
+	background-size:cover;
 }
 #startContainer {
 	border: 1px solid black;
@@ -9,11 +11,12 @@ body {
 	background-color:#66ccff;
 	margin: auto;
 	width: 60%;
-	
 }
 h1 {
-	text-alig: center;
-	
+	text-align: center;
+	color:white;
+	font-size:2em;
+	margin:20px;
 }
 #btnStart {
 	border-radius: 5px;
@@ -26,6 +29,8 @@ h1 {
     text-transform: uppercase;
 }
 #board {
+	margin: auto;
+	width: 60%;
 	background-color:#FAF31E;
 }
 .question {
