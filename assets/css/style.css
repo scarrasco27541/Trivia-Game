@@ -1,0 +1,44 @@
+body {
+    background: #fff;
+    color: #888;
+    font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#startContainer {
+	border: 1px solid black;
+	padding: 10px;
+	background-color:#66ccff;
+	margin: auto;
+	width: 60%;
+	
+}
+h1 {
+	text-alig: center;
+	
+}
+#btnStart {
+	border-radius: 5px;
+    color: #1E1EFA;
+    cursor: pointer;
+    margin: auto;
+    font-weight: 400;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+}
+#board {
+	background-color:#FAF31E;
+}
+.question {
+	margin:10px;
+	padding:10px;
+	border:1px solid black;
+}
+
+.choices a {
+	display:block;
+	margin:10px;
+}
+
+.choices a:hover {
+	color:red;
+}
